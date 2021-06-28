@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const API_URL= 'http://localhost:3000/api/v1';
+const API_URL= 'http://localhost:4000/api/v1';
 
 const Query = {
     reptile : async (parent, args, context, info) => {
